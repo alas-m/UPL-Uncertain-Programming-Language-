@@ -100,6 +100,3 @@ The Department of Uncertainty welcomes feedback — from "legit feature" to "tot
 No forms, no queues, just a direct line:
  
 > **For more info:** [t.me/cnddev](https://t.me/cnddev)
-
-📖 Full documentation: [`README.md`](README.md) (RU) · [`README.en.md`](README.en.md) (EN) —
-lexical structure, operators, precedence, EBNF grammar, all built-ins.
