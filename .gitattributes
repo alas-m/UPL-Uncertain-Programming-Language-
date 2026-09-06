@@ -1,0 +1,16 @@
+# Подсветка .uc как C++ на GitHub
+*.uc linguist-language=C++ linguist-detectable=false
+ 
+# Тестовые эталоны ОБЯЗАНЫ оставаться CRLF на диске (раннер сравнивает байты:
+# MSVC CRT конвертит \n -> \r\n при редиректе stdout). Без этого правила git
+# с core.autocrlf превратит их в LF после клонирования — и все тесты упадут.
+*.expected text eol=crlf
+*.exit      text eol=crlf
+ 
+# Скрипты Windows
+*.bat text eol=crlf
+ 
+# Всё остальное — LF
+*.md  text eol=lf
+*.uc  text eol=lf
+*.cpp text eol=lf
